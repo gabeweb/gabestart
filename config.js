@@ -99,7 +99,7 @@ var cards = [
 			"OneDrive": "https://onedrive.com",
 			"Photopea": "https://photopea.com",
 			"VSCode": "https://vscode.dev",
-			"Vectr": "https://vectr.comm",
+			"Vectr": "https://vectr.com",
 			"Write.as": "https://write.as",
 			"Yandex Disk": "https://disk.yandex.com"
 		}
