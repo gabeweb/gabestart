@@ -47,7 +47,7 @@
   /* In light mode is vice-versa */
   --usernameFg: #282a36;
 
-  --bdradius: 0.75em;
+  --bdradius: none; /* 0.75em* */
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -70,6 +70,7 @@ body {
   background-color: var(--bg);
   margin: 0;
   font-family: var(--fontBody);
+  font-size: 100%;
 }
 
 * {
@@ -352,6 +353,26 @@ button#clear-field img {
   border-radius: 0 0 var(--bdradius) var(--bdradius);
 }
 
+.content[data-tab*="1"] {
+  border: 1px solid var(--blue);
+}
+
+.content[data-tab*="2"] {
+  border: 1px solid var(--green);
+}
+
+.content[data-tab*="3"] {
+  border: 1px solid var(--orange);
+}
+
+.content[data-tab*="4"] {
+  border: 1px solid var(--red);
+}
+
+.content[data-tab*="5"] {
+  border: 1px solid var(--purple);
+}
+
 .content {
   background-color: var(--secondaryBg);
   display: none;
@@ -502,7 +523,7 @@ button#clear-field img {
   .tab,
   .tab.active[data-tab^="tab"],
   .tab[data-tab^="tab"]:hover {
-    background-color: var(--secondaryBg);
+    //*background-color: var(--secondaryBg);*/
     border-radius: var(--bdradius) var(--bdradius) 0 0;
     font-size: 1.5em;
     margin: 0 1%;
@@ -511,27 +532,32 @@ button#clear-field img {
   }
 
   .tab[data-tab*="1"] {
-    color: var(--blue) !important;
+    background: var(--blue) !important;
+    color: var(--white) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
   .tab[data-tab*="2"] {
-    color: var(--green) !important;
+    background: var(--green) !important;
+    color: var(--black) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
   .tab[data-tab*="3"] {
-    color: var(--orange) !important;
+    background: var(--orange) !important;
+    color: var(--black) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
   .tab[data-tab*="4"] {
-    color: var(--red) !important;
+    background: var(--red) !important;
+    color: var(--white) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
   .tab[data-tab*="5"] {
-    color: var(--purple) !important;
+    background: var(--purple) !important;
+    color: var(--black) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
