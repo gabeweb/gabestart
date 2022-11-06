@@ -206,13 +206,14 @@ h1#main_header {
 }
 
 #searchbar {
-  border: 0;
+  border: 2px solid transparent;
   border-radius: var(--bdradius);
   display: flex;
   background-color: var(--secondaryBg);
   height: 50px;
-  padding: 2px;
+  padding: 0px;
   padding-left: 20px;
+  overflow: hidden;
 }
 
 #search-favicon {
@@ -228,7 +229,7 @@ h1#main_header {
 /* COOL FAVICON SEARCH ENGINE */
 #search-favicon::before {
   content: var(--faviconSearch);
-  display: inline;
+  display: inline-flex;
   filter: invert(var(--invert)) grayscale(100%) saturate(1);
 }
 
@@ -247,6 +248,10 @@ h1#main_header {
   font-family: var(--fontBody);
   font-size: 1.1em;
   color: inherit;
+}
+
+#searchbar:focus-within {
+  border: 2px solid var(--accentColor);
 }
 
 input:focus {
