@@ -1,5 +1,6 @@
 // Username displayed in greeting.
-var userName = "gabeweb";
+var userName = "gabeweb" +
+"<span id=dottime>&#x25AE;</span>";
 
 // Cards
 var cards = [
@@ -84,6 +85,7 @@ var cards = [
 			"Pitchfork": "https://pitchfork.com",
 			"Plex": "https://watch.plex.tv",
 			"Pluto TV": "https://pluto.tv",
+			"Roku": "htps://roku.com",
 			"Runtime": "https://runtime.tv",
 			"Spotify": "https://open.spotify.com",
 			"Trakt.tv": "https://trakt.tv",
