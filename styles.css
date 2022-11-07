@@ -743,7 +743,7 @@ span.info-connector {
   font-weight: bold;
 }
 
-#dottime {
+#dottime, #username:after {
   color: var(--black);
   animation-name: blink;
   animation-duration: 1s;
@@ -755,6 +755,13 @@ span.info-connector {
   -webkit-animation-direction: linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: -0.5s;
+}
+
+#username:after {
+  display: inline;
+  content: "\25AE";
+  margin: 0px;
+  line-height: 1px;
 }
 
 @-webkit-keyframes blink {

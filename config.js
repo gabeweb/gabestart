@@ -1,6 +1,5 @@
 // Username displayed in greeting.
-var userName = "gabeweb" +
-"<span id=dottime>&#x25AE;</span>";
+var userName = "gabeweb";
 
 // Cards
 var cards = [
