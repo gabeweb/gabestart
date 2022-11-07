@@ -367,7 +367,7 @@ button#clear-field img {
 }
 
 .content[data-tab*="3"] {
-  border: 1px solid var(--orange);
+  border: 1px solid var(--yellow);
 }
 
 .content[data-tab*="4"] {
@@ -420,7 +420,7 @@ button#clear-field img {
 .tab.active[data-tab*="3"],
 .content[data-tab*="3"] a:hover,
 .tab[data-tab*="3"]:hover {
-  background-color: var(--orange);
+  background-color: var(--yellow);
   color: var(--black);
   /* FIX FOR DRACULA-EST THEME */
 }
@@ -549,7 +549,7 @@ button#clear-field img {
   }
 
   .tab[data-tab*="3"] {
-    background: var(--orange) !important;
+    background: var(--yellow) !important;
     color: var(--black) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
@@ -612,6 +612,7 @@ button#clear-field img {
   position: fixed;
   z-index: -1;
   width: 100%;
+  display: none; /* Disabled by default */
 }
 
 .parallax > use {
