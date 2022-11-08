@@ -161,10 +161,13 @@ h1#main_header {
 
 #username {
   background-color: var(--usernameBg);
-  border-radius: var(--bdradius);
+  /*border-radius: var(--bdradius);*/
+  outline: 2px solid var(--usernameBg);
   color: var(--usernameFg);
+  animation: cursor-blink 1.0s infinite ease;
+  -webkit-animation: cursor-blink 1.0s infinite ease;
   /*cursor: pointer;*/
-  padding: 0 0.5em;
+  padding: 0 0em 0 0.15em;
 }
 
 /* Vertical scroll box */
@@ -528,7 +531,7 @@ button#clear-field img {
   .tab,
   .tab.active[data-tab^="tab"],
   .tab[data-tab^="tab"]:hover {
-    //*background-color: var(--secondaryBg);*/
+    /*background-color: var(--secondaryBg);*/
     border-radius: var(--bdradius) var(--bdradius) 0 0;
     font-size: 1.5em;
     margin: 0 1%;
@@ -744,7 +747,7 @@ span.info-connector {
   font-weight: bold;
 }
 
-#dottime, #username:after {
+#dottime {
   color: var(--black);
   animation-name: blink;
   animation-duration: 1s;
@@ -756,13 +759,6 @@ span.info-connector {
   -webkit-animation-direction: linear;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: -0.5s;
-}
-
-#username:after {
-  display: inline;
-  content: "\25AE";
-  margin: 0px;
-  line-height: 1px;
 }
 
 @-webkit-keyframes blink {
@@ -782,6 +778,26 @@ span.info-connector {
 
   100% {
     filter: opacity(1);
+  }
+}
+
+@keyframes cursor-blink {
+  0% {
+    border-right: 20px outset var(--usernameBg);
+  }
+
+  100% {
+    border-right: 20px outset var(--usernameFg);
+  }
+}
+
+@-webkit-keyframes cursor-blink {
+  0% {
+    border-right: 20px outset var(--usernameBg);
+  }
+
+  100% {
+    border-right: 20px outset var(--usernameFg);
   }
 }
 
