@@ -6,7 +6,7 @@ currentTime = new Date();
 //getHour() function will retrieve the hour from current time
 if (currentTime.getHours() < 12)
   document.getElementById("greeting").innerHTML = "Good Morning!";
-else if (currentTime.getHours() < 17)
+else if (currentTime.getHours() < 18)
   document.getElementById("greeting").innerHTML = "Good Afternoon!";
 else document.getElementById("greeting").innerHTML = "Good Evening!";
 
@@ -121,7 +121,7 @@ const interval = setInterval(() => {
     " " +
     month[now.getMonth()] +
     " " +
-    zeroFill(now.getUTCDate()) +
+    zeroFill(now.getDate()) +
     ", " +
     now.getFullYear();
   const timeDate =
