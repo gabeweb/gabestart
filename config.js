@@ -11,6 +11,7 @@ var cards = [
 			"OnMail": "https://mail.onmail.com",
 			"Outlook": "https://mail.live.com",
 			"Proton Mail": "https://mail.proton.me",
+			"Skiff Mail": "https://mail.skiff.com",
 			"Yahoo Mail": "https://mail.yahoo.com",
 			"Yandex Mail": "https://mail.yandex.com"
 		}
@@ -102,6 +103,7 @@ var cards = [
 			"Dropbox": "https://dropbox.com",
 			"Figma": "https://figma.com",
 			"GitHub": "https://github.com",
+			"Google Calendar": "https://calendar.google.com",
 			"Google Docs": "https://docs.google.com",
 			"Google Drive": "https://drive.google.com",
 			"Google Keep": "https://keep.google.com",
@@ -113,7 +115,9 @@ var cards = [
 			"Notion": "https://notion.so",
 			"Office 365": "https://office.com",
 			"OneDrive": "https://onedrive.com",
+			"Outlook Calendar": "https://calendar.live.com",
 			"Photopea": "https://photopea.com",
+			"Skiff Drive": "https://drive.skiff.com",
 			"VSCode": "https://vscode.dev",
 			"Vectr": "https://vectr.comm",
 			"Write.as": "https://write.as",
