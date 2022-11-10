@@ -48,11 +48,11 @@ You must edit the `weather.js` file the following strings:
 /* OPEN WEATHER MAP */
 xhr.open(
   "GET",
-  "https://api.openweathermap.org/data/2.5/weather?q=[CITY NAME OR CITY ID]&appid=[YOUR API ID]&units=metric"
+  "https://api.openweathermap.org/data/2.5/weather?q=[CITY ID]&appid=[YOUR API ID]&units=metric"
 );
 ```
 
-`YOUR CITY NAME OR CITY ID` ==> You can use the name of your city or the ID city. For example: If you're living on London (Great Britain), you can put `London,GB` or `2643743` (this ID number is geting from the URL `https://openweathermap.org/city/2643743` when you search on OpenWeatherMap.org).
+`YOUR CITY NAME OR CITY ID` ==> You can use the name of your city or the ID city. For example: If you're living on London (Great Britain), you must put the ID `2643743` (this ID number is geting from the URL `https://openweathermap.org/city/2643743` when you search on OpenWeatherMap.org).
 
 `YOUR API ID` ==> You must generate an OpenWeatherMap API Key from https://home.openweathermap.org/api_keys **VERY IMPORTANT**.
 

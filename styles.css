@@ -164,8 +164,8 @@ h1#main_header {
   /*border-radius: var(--bdradius);*/
   outline: 2px solid var(--usernameBg);
   color: var(--usernameFg);
-  animation: cursor-blink 1.0s infinite ease;
-  -webkit-animation: cursor-blink 1.0s infinite ease;
+  animation: cursor-blink .6s infinite ease;
+  -webkit-animation: cursor-blink .6s infinite ease;
   /*cursor: pointer;*/
   padding: 0 0em 0 0.15em;
 }
