@@ -19,6 +19,7 @@ var cards = [
 	{
 		name: "News",
 		bookmarks: {
+			"9to5Linux": "https://9to5linux.com/",
 			"Android Authority": "https://androidauthority.com",
 			"Android Central": "https://androidcentral.com",
 			"Android Police": "https://androidpolice.com",
@@ -27,6 +28,7 @@ var cards = [
 			"BBC News": "https://bbc.com",
 			"Boing Boing": "https://boingboing.net",
 			"CNET": "https://cnet.com",
+			"Decrypt": "https://decrypt.co",
 			"Digg": "https://digg.com",
 			"Forbes": "https://forbes.com",
 			"Mashable": "https://mashable.com",
