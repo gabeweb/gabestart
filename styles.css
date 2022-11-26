@@ -15,20 +15,20 @@
 /* Colors and other var*/
 :root {
   /* GLOBAL  COLORS  */
-  --bg: #282a36;
-  --fg: #f8f8f2;
+  --bg: rgb(30, 30, 46);
+  --fg: rgb(205, 214, 244);
 
-  --secondaryBg: rgba(68, 71, 90, .85);
+  --secondaryBg: rgb(69, 71, 90);
 
-  --black: #282a36;
-  --blue: rgb(98, 114, 164);
-  --cyan: #8be9fd;
-  --green: #50fa7b;
-  --orange: #ffb86c;
-  --purple: #9580ff;
-  --red: #ff5555;
-  --white: #f8f8f2;
-  --yellow: #f1fa8c;
+  --black: rgb(24, 24, 37);
+  --blue: rgb(137, 180, 250);
+  --cyan: rgb(137, 220, 235);
+  --green: rgb(166, 227, 161);
+  --orange: rgb(250, 179, 135);
+  --purple: rgb(203, 166, 247);
+  --red: rgb(243, 139, 168);
+  --white: rgb(245, 224, 220);
+  --yellow: rgb(249, 226, 175);
 
   --fontBody: "IBM Plex Mono", "Menlo", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", Courier, monospace;
@@ -45,7 +45,7 @@
 
   --usernameBg: var(--accentColor);
   /* In light mode is vice-versa */
-  --usernameFg: #282a36;
+  --usernameFg: var(--black);
 
   --bdradius: none; /* 0.75em* */
 }
@@ -164,8 +164,8 @@ h1#main_header {
   /*border-radius: var(--bdradius);*/
   outline: 2px solid var(--usernameBg);
   color: var(--usernameFg);
-  animation: cursor-blink .6s infinite ease;
-  -webkit-animation: cursor-blink .6s infinite ease;
+  animation: cursor-blink 0.6s infinite ease;
+  -webkit-animation: cursor-blink 0.6s infinite ease;
   /*cursor: pointer;*/
   padding: 0 0em 0 0.15em;
 }
@@ -346,10 +346,10 @@ button#clear-field img {
 }
 
 .tab {
-  align-items: center;
+  /*align-items: center;*/
   cursor: pointer;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   padding: 0.75em;
   width: 25%;
 }
@@ -396,19 +396,24 @@ button#clear-field img {
 }
 
 .content > a {
-  align-items: center;
+  /*align-items: center;*/
   cursor: pointer;
   /*display: flex;*/
-  text-align: center;
+  /*text-align: center;*/
   padding: 0.5em;
 }
 
 /* Colors */
+
+.tab.active[data-tab^="tab"] {
+  font-weight: 700;
+}
+
 .tab.active[data-tab*="1"],
 .content[data-tab*="1"] a:hover,
 .tab[data-tab*="1"]:hover {
   background-color: var(--blue);
-  color: var(--white);
+  color: var(--black);
   /* FIX FOR DRACULA-EST THEME */
 }
 
@@ -432,7 +437,7 @@ button#clear-field img {
 .content[data-tab*="4"] a:hover,
 .tab[data-tab*="4"]:hover {
   background-color: var(--red);
-  color: var(--white);
+  color: var(--black);
   /* FIX FOR DRACULA-EST THEME */
 }
 
@@ -533,7 +538,8 @@ button#clear-field img {
   .tab[data-tab^="tab"]:hover {
     /*background-color: var(--secondaryBg);*/
     border-radius: var(--bdradius) var(--bdradius) 0 0;
-    font-size: 1.5em;
+    font-size: 1.1em;
+    font-weight: 700;
     margin: 0 1%;
     padding: 0.5em;
     width: 24%;
@@ -541,7 +547,7 @@ button#clear-field img {
 
   .tab[data-tab*="1"] {
     background: var(--blue) !important;
-    color: var(--white) !important;
+    color: var(--black) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
@@ -559,7 +565,7 @@ button#clear-field img {
 
   .tab[data-tab*="4"] {
     background: var(--red) !important;
-    color: var(--white) !important;
+    color: var(--black) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
@@ -578,12 +584,12 @@ button#clear-field img {
   }
 
   .content > a {
-    padding: 0.25em;
+    padding: 0.45em;
   }
 }
 
 /* Screens larger than a average tab */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
   #search {
     width: 60%;
   }
