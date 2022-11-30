@@ -19,7 +19,7 @@ var cards = [
 	{
 		name: "News",
 		bookmarks: {
-			"9to5Linux": "https://9to5linux.com/",
+			"9to5Linux": "https://9to5linux.com",
 			"Android Authority": "https://androidauthority.com",
 			"Android Central": "https://androidcentral.com",
 			"Android Police": "https://androidpolice.com",
@@ -31,6 +31,7 @@ var cards = [
 			"Decrypt": "https://decrypt.co",
 			"Digg": "https://digg.com",
 			"Forbes": "https://forbes.com",
+			"Huawei Central": "https://huaweicentral.com",
 			"Mashable": "https://mashable.com",
 			"Mental Floss": "https://mentalfloss.com",
 			"Motor1.com": "https://www.motor1.com",
@@ -59,7 +60,6 @@ var cards = [
 			"Facebook": "https://facebook.com",
 			"Hashnode": "https://hashnode.com",
 			"Instagram": "https://instagram.com/?theme=dark",
-			"Mastodon": "https://mastodon.social",
 			"Messenger": "https://messenger.com",
 			"Quora": "https://quora.com",
 			"Reddit": "https://reddit.com",
@@ -77,7 +77,7 @@ var cards = [
 			"Behance": "https://behance.net",
 			"Colossal": "https://thisiscolossal.com",
 			"Consequence": "https://consequence.net",
-			"Crumchyroll": "https://crunchyroll.com",
+			"Crunchyroll": "https://crunchyroll.com",
 			"Deviantart": "https://deviantart.com",
 			"Dribbble": "https://dribbble.com",
 			"Ello": "https://ello.co",
@@ -87,7 +87,7 @@ var cards = [
 			"Pitchfork": "https://pitchfork.com",
 			"Plex": "https://watch.plex.tv",
 			"Pluto TV": "https://pluto.tv",
-			"Roku": "htps://roku.com",
+			"Roku": "https://roku.com",
 			"Runtime": "https://runtime.tv",
 			"Spotify": "https://open.spotify.com",
 			"Trakt.tv": "https://trakt.tv",
@@ -96,6 +96,7 @@ var cards = [
 			"YouTube Music": "https://music.youtube.com"
 		}
 	},
+
 	{
 		name: "Tools",
 		bookmarks: {
