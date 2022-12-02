@@ -1,0 +1,79 @@
+/* Dracula Colors */
+:root {
+  /* GLOBAL  COLORS  */
+  --bg: #282a36;
+  --fg: #f8f8f2;
+
+  --secondaryBg: rgba(68, 71, 90, 0.85);
+
+  --black: #282a36;
+  --blue: rgb(98, 114, 164);
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --purple: #9580ff;
+  --red: #ff5555;
+  --white: #f8f8f2;
+  --yellow: #f1fa8c;
+}
+
+
+
+/* Colors */
+
+.tab.active[data-tab^="tab"] {
+    font-weight: 700;
+  }
+
+  .tab.active[data-tab*="1"],
+  .content[data-tab*="1"] a:hover,
+  .tab[data-tab*="1"]:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    /* FIX FOR DRACULA-EST THEME */
+  }
+
+  .tab.active[data-tab*="2"],
+  .content[data-tab*="2"] a:hover,
+  .tab[data-tab*="2"]:hover {
+    background-color: var(--green);
+    color: var(--black);
+    /* FIX FOR DRACULA-EST THEME */
+  }
+
+  .tab.active[data-tab*="3"],
+  .content[data-tab*="3"] a:hover,
+  .tab[data-tab*="3"]:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+    /* FIX FOR DRACULA-EST THEME */
+  }
+
+  .tab.active[data-tab*="4"],
+  .content[data-tab*="4"] a:hover,
+  .tab[data-tab*="4"]:hover {
+    background-color: var(--red);
+    color: var(--white);
+    /* FIX FOR DRACULA-EST THEME */
+  }
+
+  .tab.active[data-tab*="5"],
+  .content[data-tab*="5"] a:hover,
+  .tab[data-tab*="5"]:hover {
+    background-color: var(--purple);
+    color: var(--black);
+    /* FIX FOR DRACULA-EST THEME */
+  }
+
+  /* FIX FOR DRACULA-EST THEME */
+  .tab.active[data-tab*="1"] a:hover {
+    color: var(--black);
+  }
+
+  .tab.active[data-tab*="2"] a:hover {
+    color: var(--black);
+  }
+
+  .tab.active[data-tab*="3"] a:hover {
+    color: var(--black);
+  }

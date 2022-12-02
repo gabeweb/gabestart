@@ -1,5 +1,12 @@
+/* Common Colors
+/* Available:
+/* colors-dracula.css
+/* colors-catppuccin.css
+*/
+@import url(colors-dracula.css);
+
 /* GetStarted - A simple responsive Startpage
- * Author: MrAlpha786 (github.con/MrAlpha786) */
+Author: MrAlpha786 (github.con/MrAlpha786) */
 
 @font-face {
   font-family: "IBM Plex Mono";
@@ -12,24 +19,11 @@
 }
 
 /* TODO: Create Custom Theme Template to be imported */
-/* Colors and other var*/
+
+/* Common variables */
+
 :root {
   /* GLOBAL  COLORS  */
-  --bg: rgb(30, 30, 46);
-  --fg: rgb(205, 214, 244);
-
-  --secondaryBg: rgb(69, 71, 90);
-
-  --black: rgb(24, 24, 37);
-  --blue: rgb(137, 180, 250);
-  --cyan: rgb(137, 220, 235);
-  --green: rgb(166, 227, 161);
-  --orange: rgb(250, 179, 135);
-  --purple: rgb(203, 166, 247);
-  --red: rgb(243, 139, 168);
-  --white: rgb(245, 224, 220);
-  --yellow: rgb(249, 226, 175);
-
   --fontBody: "IBM Plex Mono", "Menlo", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", Courier, monospace;
   --fontHeader: "Monocraft", monospace;
@@ -47,7 +41,8 @@
   /* In light mode is vice-versa */
   --usernameFg: var(--black);
 
-  --bdradius: none; /* 0.75em* */
+  --bdradius: none;
+  /* 0.75em* */
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -403,65 +398,6 @@ button#clear-field img {
   padding: 0.5em;
 }
 
-/* Colors */
-
-.tab.active[data-tab^="tab"] {
-  font-weight: 700;
-}
-
-.tab.active[data-tab*="1"],
-.content[data-tab*="1"] a:hover,
-.tab[data-tab*="1"]:hover {
-  background-color: var(--blue);
-  color: var(--black);
-  /* FIX FOR DRACULA-EST THEME */
-}
-
-.tab.active[data-tab*="2"],
-.content[data-tab*="2"] a:hover,
-.tab[data-tab*="2"]:hover {
-  background-color: var(--green);
-  color: var(--black);
-  /* FIX FOR DRACULA-EST THEME */
-}
-
-.tab.active[data-tab*="3"],
-.content[data-tab*="3"] a:hover,
-.tab[data-tab*="3"]:hover {
-  background-color: var(--yellow);
-  color: var(--black);
-  /* FIX FOR DRACULA-EST THEME */
-}
-
-.tab.active[data-tab*="4"],
-.content[data-tab*="4"] a:hover,
-.tab[data-tab*="4"]:hover {
-  background-color: var(--red);
-  color: var(--black);
-  /* FIX FOR DRACULA-EST THEME */
-}
-
-.tab.active[data-tab*="5"],
-.content[data-tab*="5"] a:hover,
-.tab[data-tab*="5"]:hover {
-  background-color: var(--purple);
-  color: var(--black);
-  /* FIX FOR DRACULA-EST THEME */
-}
-
-/* FIX FOR DRACULA-EST THEME */
-.tab.active[data-tab*="1"] a:hover {
-  color: var(--black);
-}
-
-.tab.active[data-tab*="2"] a:hover {
-  color: var(--black);
-}
-
-.tab.active[data-tab*="3"] a:hover {
-  color: var(--black);
-}
-
 /* SPACER TEMPORARY FIX
 /* Betweem table container and footer
 /* For landscape and portrait modes
@@ -547,7 +483,7 @@ button#clear-field img {
 
   .tab[data-tab*="1"] {
     background: var(--blue) !important;
-    color: var(--black) !important;
+    color: var(--white) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
@@ -565,7 +501,7 @@ button#clear-field img {
 
   .tab[data-tab*="4"] {
     background: var(--red) !important;
-    color: var(--black) !important;
+    color: var(--white) !important;
     /* FIX FOR DRACULA-EST THEME */
   }
 
@@ -621,7 +557,8 @@ button#clear-field img {
   position: fixed;
   z-index: -1;
   width: 100%;
-  display: none; /* Disabled by default */
+  display: none;
+  /* Disabled by default */
 }
 
 .parallax > use {
@@ -812,6 +749,7 @@ span.info-connector {
     transform: translateX(100%);
   }
 }
+
 @keyframes scroll-left {
   from {
     transform: translateX(100%);
