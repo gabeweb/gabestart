@@ -465,10 +465,6 @@ button#clear-field img {
 
 /* Screens larger than a average phone */
 @media screen and (min-width: 800px) {
-  #tab-container {
-    background-color: transparent;
-  }
-
   .tab,
   .tab.active[data-tab^="tab"],
   .tab[data-tab^="tab"]:hover {
@@ -479,36 +475,6 @@ button#clear-field img {
     margin: 0 1%;
     padding: 0.5em;
     width: 24%;
-  }
-
-  .tab[data-tab*="1"] {
-    background: var(--blue) !important;
-    color: var(--white) !important;
-    /* FIX FOR DRACULA-EST THEME */
-  }
-
-  .tab[data-tab*="2"] {
-    background: var(--green) !important;
-    color: var(--black) !important;
-    /* FIX FOR DRACULA-EST THEME */
-  }
-
-  .tab[data-tab*="3"] {
-    background: var(--yellow) !important;
-    color: var(--black) !important;
-    /* FIX FOR DRACULA-EST THEME */
-  }
-
-  .tab[data-tab*="4"] {
-    background: var(--red) !important;
-    color: var(--white) !important;
-    /* FIX FOR DRACULA-EST THEME */
-  }
-
-  .tab[data-tab*="5"] {
-    background: var(--purple) !important;
-    color: var(--black) !important;
-    /* FIX FOR DRACULA-EST THEME */
   }
 
   .content,
