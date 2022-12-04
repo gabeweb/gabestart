@@ -377,7 +377,7 @@ button#clear-field img {
 }
 
 .content {
-  background-color: var(--secondaryBg);
+  /*background-color: var(--secondaryBg);*/ /* OPTIONAL */
   display: none;
   flex-direction: column;
   height: 36vh;
