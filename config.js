@@ -60,6 +60,7 @@ var cards = [
 			"Facebook": "https://facebook.com",
 			"Hashnode": "https://hashnode.com",
 			"Instagram": "https://instagram.com/?theme=dark",
+			"Mastodon": "https://mastodon.social",
 			"Messenger": "https://messenger.com",
 			"Quora": "https://quora.com",
 			"Reddit": "https://reddit.com",
