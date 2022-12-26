@@ -9,46 +9,46 @@ App = {
     if (dayNight == "d") {
       switch (code) {
         case "01":
-          return "weather/icons/sunny.png";
+          return "weather/icons/sunny.svg";
         case "02":
-          return "weather/icons/partly_cloudy.png";
+          return "weather/icons/partly_cloudy.svg";
         case "03":
-          return "weather/icons/cloudy.png";
+          return "weather/icons/cloudy.svg";
         case "04":
-          return "weather/icons/cloudy_s_sunny.png";
+          return "weather/icons/cloudy_s_sunny.svg";
         case "09":
-          return "weather/icons/rain_s_cloudy.png";
+          return "weather/icons/rain_s_cloudy.svg";
         case "10":
-          return "weather/icons/rain.png";
+          return "weather/icons/rain.svg";
         case "11":
-          return "weather/icons/thunderstorms.png";
+          return "weather/icons/thunderstorms.svg";
         case "13":
-          return "weather/icons/snow.png";
+          return "weather/icons/snow.svg";
         case "50":
-          return "weather/icons/mist.png";
+          return "weather/icons/mist.svg";
         default:
           return null;
       }
     } else {
       switch (code) {
         case "01":
-          return "weather/icons/night.png";
+          return "weather/icons/night.svg";
         case "02":
-          return "weather/icons/night_partly_cloudy.png";
+          return "weather/icons/night_partly_cloudy.svg";
         case "03":
-          return "weather/icons/cloudy.png";
+          return "weather/icons/cloudy.svg";
         case "04":
-          return "weather/icons/cloudy_night.png";
+          return "weather/icons/cloudy_night.svg";
         case "09":
-          return "weather/icons/rain_night.png";
+          return "weather/icons/rain_night.svg";
         case "10":
-          return "weather/icons/rain.png";
+          return "weather/icons/rain.svg";
         case "11":
-          return "weather/icons/thunderstorms.png";
+          return "weather/icons/thunderstorms.svg";
         case "13":
-          return "weather/icons/night_snow.png";
+          return "weather/icons/night_snow.svg";
         case "50":
-          return "weather/icons/mist.png";
+          return "weather/icons/mist.svg";
         default:
           return null;
       }
