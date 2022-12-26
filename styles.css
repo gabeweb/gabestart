@@ -124,13 +124,14 @@ h1#main_header {
 #weather {
   display: block;
   position: absolute;
-  top: 36px;
+  top: 50px;
+  width: 46px;
 }
 
 /* Weather */
 #weather-icon {
-  height: 32px;
-  width: 32px;
+  height: 46px;
+  width: 46px;
   display: block;
   position: absolute;
   filter:invert(1);
@@ -141,8 +142,8 @@ h1#main_header {
   font-weight: 300;
   display: inline-block;
   position: relative;
-  width: 36px;
-  height: 36px;
+  width: 46px;
+  height: 46px;
   text-align: center;
 }
 

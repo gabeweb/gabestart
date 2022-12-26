@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- GetStarted - A simple responsive Startpage
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- GetStarted - A simple responsive Startpage
         Author: MrAlpha786  (github.con/MrAlpha786) -->
 
-    <title>GABEstart</title>
+  <title>GABEstart</title>
 
-    <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 
-    <!-- JQUERY REQUIRED FOR LAST.FM SCROBBLER -->
-    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <!-- JQUERY REQUIRED FOR LAST.FM SCROBBLER -->
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
 
-    <script type="text/javascript" src="scripts/lastfm.jquery.js"></script>
-    <script type="text/javascript">
+  <script type="text/javascript" src="scripts/lastfm.jquery.js"></script>
+  <script type="text/javascript">
       /*<![CDATA[*/ $(document).ready(function () {
         $("#lastBox").lastplayed({
           apikey: "518602081119232574d506e55f6d2892",
@@ -33,176 +34,136 @@
             '<p class="playing-not"><span style="animation: blink 1s infinite; animation-direction: alternate; color: var(--green);">//</span> Not scrobbling yet...</p>',
         });
       }); /*]]>*/
-    </script>
-  </head>
+  </script>
+</head>
 
-  <body>
-    <div class="container">
-      <h1 id="main_header">
-        <span id="greeting"></span>
-        <div id="weather-container" title="">
-          <a href="https://openweathermap.org/city/3647651" target="_blank"><span id="weather">Loading ... </span>
-          <span><img id="weather-icon" data-remote-svg-uri="" class="weather-icon"/></span></a>
-        </div>
-        <span id="username" onclick="toggleMode()"></span>
-      </h1>
-
-      <div id="vertical-scroll-box">
-        <div class="vertical-scroll-box">
-          <ul>
-            <li class="item-1"><span id="date-time"></span></li>
-            <li class="item-2"><span id="time-date"></span></li>
-            <li class="item-3">
-              <div id="nowPlaying-container">
-                <span id="playingInfo"></span>
-              </div>
-            </li>
-          </ul>
-        </div>
+<body>
+  <div class="container">
+    <h1 id="main_header">
+      <span id="greeting"></span>
+      <div id="weather-container" title="">
+        <a href="https://openweathermap.org/city/3647651" target="_blank"><span id="weather">Loading ... </span>
+          <img id="weather-icon" data-remote-svg-uri="" class="weather-icon" /></a>
       </div>
+      <span id="username" onclick="toggleMode()"></span>
+    </h1>
 
-      <div id="search">
-        <form
-          id="searchbar"
-          action="https://duckduckgo.com/?search"
-          autocomplete="off"
-          oninput="suggest()"
-          target="_blank"
-        >
-          <span id="search-favicon"></span>
-          <input
-            autofocus
-            id="searchInput"
-            spellcheck="false"
-            name="q"
-            placeholder="Search DuckDuckGo..."
-          />
-
-          <button
-            id="clear-field"
-            onclick="InputBoxReset('searchInput')"
-            type="reset"
-          >
-            <img src="asset/icons/close.svg" alt="Clear" />
-          </button>
-          <button id="search-button" onclick="search()">
-            <img src="asset/icons/loupe.svg" alt="Go" />
-          </button>
-        </form>
-        <div id="suggestions"></div>
-      </div>
-
-      <div class="table-container">
-        <div class="col-container" id="tab-container">
-          <div class="tab active" data-tab="tab-1">Email</div>
-          <div class="tab" data-tab="tab-2">News</div>
-          <div class="tab" data-tab="tab-3">Social</div>
-          <div class="tab" data-tab="tab-4">Media</div>
-          <div class="tab" data-tab="tab-5">Tools</div>
-        </div>
-
-        <div class="col-container" id="content-container">
-          <div class="content active" data-tab="tab-1"></div>
-          <div class="content" data-tab="tab-2"></div>
-          <div class="content" data-tab="tab-3"></div>
-          <div class="content" data-tab="tab-4"></div>
-          <div class="content" data-tab="tab-5"></div>
-        </div>
+    <div id="vertical-scroll-box">
+      <div class="vertical-scroll-box">
+        <ul>
+          <li class="item-1"><span id="date-time"></span></li>
+          <li class="item-2"><span id="time-date"></span></li>
+          <li class="item-3">
+            <div id="nowPlaying-container">
+              <span id="playingInfo"></span>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
 
-    <script type="text/javascript"></script>
+    <div id="search">
+      <form id="searchbar" action="https://duckduckgo.com/?search" autocomplete="off" oninput="suggest()"
+        target="_blank">
+        <span id="search-favicon"></span>
+        <input autofocus id="searchInput" spellcheck="false" name="q" placeholder="Search DuckDuckGo..." />
 
-    <div class="footer">
-      <div id="footer-inner">
-        <div id="hideDiv">
-          <a href="https://github.com/gabeweb/gabestart" target="_blank"
-            >GABEstart</a
-          >
-          is a startpage forked by
-          <a href="https://gabeweb.github.io" target="_blank">GABEweb</a> from
-          <a href="https://github.com/MrAlpha786/getstarted" target="_blank"
-            >GetStarted</a
-          >
-          including some elements from
-          <a href="https://codepen.io/andyfitz/pen/aZrKdV" target="_blank"
-            >The Deep Blue (waves)</a
-          >,
-          <a href="https://github.com/LentoLen/suggestions" target="_blank"
-            >Suggestions</a
-          >
-          and
-          <a
-            href="https://github.com/FrankFan/jQuery.scrollText.js"
-            target="_blank"
-            >jQuery.scrollText.js</a
-          >.<br />
-          Weather info from
-          <a href="https://openweathermap.org">OpenWeatherMap</a>,icons from
-          <a href="https://carbondesignsystem.com/guidelines/icons/contribute/">IBM's Carbon Design System</a>
-          and fonts are
-          <a href="https://github.com/IBM/plex" target="_blank">IBM Plex</a> and
-          <a href="https://github.com/IdreesInc/Monocraft" target="_blank"
-            >Monocraft</a
-          >.
-          <br />
-          Released under a
-          <a
-            href="https://github.com/gabeweb/gabestart/blob/main/LICENSE"
-            target="_blank"
-            >GPL-3.0 license</a
-          >.
-        </div>
-        <button title="Info" alt="Info" onclick="buttonClicked()">
-          &#9432;
+        <button id="clear-field" onclick="InputBoxReset('searchInput')" type="reset">
+          <img src="asset/icons/close.svg" alt="Clear" />
         </button>
-      </div>
+        <button id="search-button" onclick="search()">
+          <img src="asset/icons/loupe.svg" alt="Go" />
+        </button>
+      </form>
+      <div id="suggestions"></div>
     </div>
 
-    <!-- WAVE PARALLAX ANIMATION TAKEN FROM
+    <div class="table-container">
+      <div class="col-container" id="tab-container">
+        <div class="tab active" data-tab="tab-1">Email</div>
+        <div class="tab" data-tab="tab-2">News</div>
+        <div class="tab" data-tab="tab-3">Social</div>
+        <div class="tab" data-tab="tab-4">Media</div>
+        <div class="tab" data-tab="tab-5">Tools</div>
+      </div>
+
+      <div class="col-container" id="content-container">
+        <div class="content active" data-tab="tab-1"></div>
+        <div class="content" data-tab="tab-2"></div>
+        <div class="content" data-tab="tab-3"></div>
+        <div class="content" data-tab="tab-4"></div>
+        <div class="content" data-tab="tab-5"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript"></script>
+
+  <div class="footer">
+    <div id="footer-inner">
+      <div id="hideDiv">
+        <a href="https://github.com/gabeweb/gabestart" target="_blank">GABEstart</a>
+        is a startpage forked by
+        <a href="https://gabeweb.github.io" target="_blank">GABEweb</a> from
+        <a href="https://github.com/MrAlpha786/getstarted" target="_blank">GetStarted</a>
+        including some elements from
+        <a href="https://codepen.io/andyfitz/pen/aZrKdV" target="_blank">The Deep Blue (waves)</a>,
+        <a href="https://github.com/LentoLen/suggestions" target="_blank">Suggestions</a>
+        and
+        <a href="https://github.com/FrankFan/jQuery.scrollText.js" target="_blank">jQuery.scrollText.js</a>.<br />
+        Weather info from
+        <a href="https://openweathermap.org">OpenWeatherMap</a>,icons from
+        <a href="https://carbondesignsystem.com/guidelines/icons/contribute/">IBM's Carbon Design System</a>
+        and fonts are
+        <a href="https://github.com/IBM/plex" target="_blank">IBM Plex</a> and
+        <a href="https://github.com/IdreesInc/Monocraft" target="_blank">Monocraft</a>.
+        <br />
+        Released under a
+        <a href="https://github.com/gabeweb/gabestart/blob/main/LICENSE" target="_blank">GPL-3.0 license</a>.
+      </div>
+      <button title="Info" alt="Info" onclick="buttonClicked()">
+        &#9432;
+      </button>
+    </div>
+  </div>
+
+  <!-- WAVE PARALLAX ANIMATION TAKEN FROM
         https://codepen.io/andyfitz/pen/aZrKdV
         Copyright (c) 2022 Andy Fitzsimon
         Licensed under The MIT License (MIT) -->
-    <div id="waveform-collage">
-      <svg
-        class="waves"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 24 150 28"
-        preserveAspectRatio="none"
-      >
-        <defs>
-          <path
-            id="gentle-wave"
-            d="M-160 44c30 0
+  <div id="waveform-collage">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0
     58-18 88-18s
     58 18 88 18
     58-18 88-18
     58 18 88 18
-    v44h-352z"
-          />
-        </defs>
-        <g class="parallax">
-          <use xlink:href="#gentle-wave" x="50" y="0" />
-          <use xlink:href="#gentle-wave" x="50" y="3" />
-          <use xlink:href="#gentle-wave" x="50" y="6" />
-        </g>
-      </svg>
-    </div>
+    v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="50" y="0" />
+        <use xlink:href="#gentle-wave" x="50" y="3" />
+        <use xlink:href="#gentle-wave" x="50" y="6" />
+      </g>
+    </svg>
+  </div>
 
-    <script src="config.js"></script>
-    <script src="main.js"></script>
-    <script src="scripts/suggestions.js"></script>
-    <script src="scripts/jqyery.scrolltext.js"></script>
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+  <script src="scripts/suggestions.js"></script>
+  <script src="scripts/jqyery.scrolltext.js"></script>
 
-    <script type="text/javascript">
-      $(function () {
-        $(".vertical-scroll-box").scrollText({
-          duration: 20000,
-        });
+  <script type="text/javascript">
+    $(function () {
+      $(".vertical-scroll-box").scrollText({
+        duration: 20000,
       });
-    </script>
+    });
+  </script>
 
-    <script src="weather/weather.js"></script>
-  </body>
+  <script src="weather/weather.js"></script>
+</body>
+
 </html>
