@@ -124,16 +124,16 @@ h1#main_header {
 #weather {
   display: block;
   position: absolute;
-  top: 26px;
+  top: 36px;
 }
 
 /* Weather */
 #weather-icon {
-  height: 30px;
-  width: 33px;
-  opacity: 0.6;
+  height: 32px;
+  width: 32px;
   display: block;
   position: absolute;
+  filter:invert(1);
 }
 
 #weather-container {
