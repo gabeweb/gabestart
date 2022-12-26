@@ -124,7 +124,7 @@ h1#main_header {
 #weather {
   display: block;
   position: absolute;
-  top: 90px;
+  top: 50px;
   width: 46px;
 }
 
@@ -141,7 +141,7 @@ h1#main_header {
   font-size: 0.4em;
   font-weight: 300;
   display: inline-block;
-  /*position: relative;*/
+  position: relative;
   width: 46px;
   height: 46px;
   text-align: center;
