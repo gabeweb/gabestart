@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1{fill:none;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="icons"><g id="Planning"><g id="Weather"><rect x="15" y="1" width="2" height="4"/><rect x="23.09" y="5.79" width="4.24" height="2" transform="translate(2.58 19.81) rotate(-45)"/><rect x="27" y="15" width="4" height="2"/><rect x="4.67" y="24.21" width="4.24" height="2" transform="translate(-15.83 12.19) rotate(-45)"/><rect x="1" y="15" width="4" height="2"/><rect x="5.79" y="4.67" width="2" height="4.24" transform="translate(-2.81 6.79) rotate(-45)"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/><path d="M26.79,20.34a7,7,0,0,0-1.86-3.27A9.45,9.45,0,0,0,25,16a9,9,0,1,0-14.58,7A4.83,4.83,0,0,0,10,25a5,5,0,0,0,5,5H25a5,5,0,0,0,1.79-9.66ZM9,16a7,7,0,0,1,14-.3,6.84,6.84,0,0,0-3-.7,7,7,0,0,0-6.79,5.34,5.05,5.05,0,0,0-1.65,1.05A7,7,0,0,1,9,16ZM25,28H15a3,3,0,0,1-.7-5.91l.66-.16.1-.67a5,5,0,0,1,9.88,0l.1.66.66.16A3,3,0,0,1,25,28Z"/></g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <defs>
+        <style>
+    #weather-linea {fill: #000;}</style>
+    </defs>
+    <g id="weather-linea" class="weather-linea">
+        <rect x="15" y="1" width="2" height="4"/>
+        <rect x="23.09" y="5.79" width="4.24" height="2" transform="translate(2.58 19.81) rotate(-45)"/>
+        <rect x="27" y="15" width="4" height="2"/>
+        <rect x="4.67" y="24.21" width="4.24" height="2" transform="translate(-15.83 12.19) rotate(-45)"/>
+        <rect x="1" y="15" width="4" height="2"/>
+        <rect x="5.79" y="4.67" width="2" height="4.24" transform="translate(-2.81 6.79) rotate(-45)"/>
+        <path d="M26.79,20.34a7,7,0,0,0-1.86-3.27A9.45,9.45,0,0,0,25,16a9,9,0,1,0-14.58,7A4.83,4.83,0,0,0,10,25a5,5,0,0,0,5,5H25a5,5,0,0,0,1.79-9.66ZM9,16a7,7,0,0,1,14-.3,6.84,6.84,0,0,0-3-.7,7,7,0,0,0-6.79,5.34,5.05,5.05,0,0,0-1.65,1.05A7,7,0,0,1,9,16ZM25,28H15a3,3,0,0,1-.7-5.91l.66-.16.1-.67a5,5,0,0,1,9.88,0l.1.66.66.16A3,3,0,0,1,25,28Z"/>
+    </g>
+</svg>

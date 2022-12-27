@@ -75,7 +75,7 @@ App = {
             document.getElementById("weather-icon").src = weatherIcon;
           } else {
             document.getElementById("weather").innerHTML =
-              weatherDescription + "  " + temp;
+              weatherDescription + temp;
           }
         } else {
           console.log("error msg: " + xhr.status);
