@@ -225,18 +225,17 @@ h1#main_header {
   --favicon-yahoo: url("asset/icons/favicon-yahoo.svg");
   --favicon-yandex: url("asset/icons/favicon-yandex.svg");
   --faviconSearch: var(--favicon-duckduckgo);
-  filter: invert(0.4);
+  /*filter: invert(0.4);*/
 }
 
 /* COOL FAVICON SEARCH ENGINE */
 #search-favicon::before {
   content: var(--faviconSearch);
-  display: inline-flex;
-  filter: invert(var(--invert)) grayscale(100%) saturate(1);
+  /*display: inline-flex;*/
+  /*filter: invert(var(--invert)) grayscale(100%) saturate(1);*/
 }
 
 #search-favicon {
-  height: 32px;
   width: 32px;
   margin: 10px 6px 5px -8px;
   position: relative;
