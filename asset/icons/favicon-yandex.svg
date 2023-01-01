@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 25.4">
     <g fill="#fc3f1d">
-        <path class="st0" d="M23.7,29.9v4.3h-4.4v-7.3L11,8.8h4.6L22.1,23C23.3,25.7,23.7,26.6,23.7,29.9z M32,8.8l-5.4,12.3h-4.5l5.4-12.3
-		H32z"/>
+        <path d="M12.7,21.1v4.3H8.3V18.1L0,0H4.6l6.5,14.2A13.05,13.05,0,0,1,12.7,21.1ZM21,0,15.6,12.3H11.1L16.5,0Z"/>
     </g>
 </svg>
