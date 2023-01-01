@@ -231,18 +231,23 @@ h1#main_header {
 /* COOL FAVICON SEARCH ENGINE */
 #search-favicon::before {
   content: var(--faviconSearch);
-  /*display: inline-flex;*/
+  display: inline;
   /*filter: invert(var(--invert)) grayscale(100%) saturate(1);*/
 }
 
 #search-favicon {
   width: 32px;
-  margin: 10px 6px 5px -8px;
+  height: 32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin: 4px 6px 4px -8px;
   position: relative;
 }
 
 #searchInput {
   width: 100%;
+  height: 2.5em;
   flex-grow: 2;
   border: none;
   background-color: transparent;
