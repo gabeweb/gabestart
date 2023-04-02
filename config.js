@@ -128,6 +128,8 @@ var cards = [
 			"Google Translate": "https://translate.google.com",
 			"KeeWeb": "https://app.keeweb.info",
 			"Mega.nz": "https://mega.nz",
+			"Microsoft Designer": "https://designer.microsoft.com",
+			"Microsoft Loop": "https://loop.microsoft.com",
 			"Microsoft Sticky Notes": "https://www.onenote.com/stickynotes",
 			"Microsoft To Do": "https://to-do.live.com/tasks/",
 			"Notion": "https://notion.so",

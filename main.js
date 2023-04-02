@@ -5,13 +5,13 @@
 currentTime = new Date();
 //getHour() function will retrieve the hour from current time
 if (currentTime.getHours() < 12)
-  document.getElementById("greeting").innerHTML = "Good Morning!";
+  document.getElementById("greeting").innerHTML = "Morning!";
 else if (currentTime.getHours() < 18)
-  document.getElementById("greeting").innerHTML = "Good Afternoon!";
-else document.getElementById("greeting").innerHTML = "Good Evening!";
+  document.getElementById("greeting").innerHTML = "Afternoon!";
+else document.getElementById("greeting").innerHTML = "Evening!";
 
 // Username
-document.getElementById("username").innerHTML = userName;
+// document.getElementById("username").innerHTML = userName;
 
 // Suggestions
 function InputBoxReset(inputID) {

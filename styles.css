@@ -145,7 +145,7 @@ h1#main_header {
   width: 46px;
   height: 46px;
   text-align: center;
-  margin-left: -10px;
+  margin: 0px 0px 0px -6px;
 }
 
 .fade-in-weather {
@@ -156,7 +156,7 @@ h1#main_header {
   animation-duration: 2s;
 }
 
-#username {
+#username, #greeting {
   background-color: var(--usernameBg);
   /*border-radius: var(--bdradius);*/
   outline: 2px solid var(--usernameBg);
