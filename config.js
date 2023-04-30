@@ -139,7 +139,7 @@ var cards = [
 			"Photopea": "https://photopea.com",
 			"Skiff Drive": "https://drive.skiff.com",
 			"VSCode": "https://vscode.dev",
-			"Vectr": "https://vectr.comm",
+			"Vectr": "https://vectr.com",
 			"Write.as": "https://write.as",
 			"Yandex Disk": "https://disk.yandex.com"
 		}
