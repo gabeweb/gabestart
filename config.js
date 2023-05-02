@@ -7,6 +7,7 @@ var cards = [
 		name: "Email",
 		bookmarks: {
 			"Aol Mail": "https://mail.aol.com",
+			"EtherMail": "https://ethermail.io/webmail",
 			"Google Mail": "https://mail.google.com",
 			"OnMail": "https://mail.onmail.com",
 			"Outlook": "https://mail.live.com",
@@ -107,7 +108,8 @@ var cards = [
 			"Trakt.tv": "https://trakt.tv",
 			"TV Time": "https://tvtime.com",
 			"YouTube": "https://youtube.com",
-			"YouTube Music": "https://music.youtube.com"
+			"YouTube Music": "https://music.youtube.com",
+			"Zoro.to": "https://zoro.to"
 		}
 	},
 
