@@ -476,6 +476,7 @@ button#clear-field img {
   .tab,
   .tab.active[data-tab^="tab"],
   .tab[data-tab^="tab"]:hover {
+    cursor: inherit !important;
     /*background-color: var(--secondaryBg);*/
     border-radius: var(--bdradius) var(--bdradius) 0 0;
     font-size: 1.1em;

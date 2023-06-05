@@ -134,6 +134,7 @@ var cards = [
 			"Microsoft Loop": "https://loop.microsoft.com",
 			"Microsoft Sticky Notes": "https://www.onenote.com/stickynotes",
 			"Microsoft To Do": "https://to-do.live.com/tasks/",
+			"NotesHub": "https://www.noteshub.app/notebooks",
 			"Notion": "https://notion.so",
 			"Office 365": "https://office.com",
 			"OneDrive": "https://onedrive.com",
