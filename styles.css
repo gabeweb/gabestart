@@ -719,13 +719,17 @@ span.info-connector {
   }
 }
 
-@-webkit-keyframes scroll-left {
+@keyframes scroll-left {
   from {
     transform: translateX(100%);
   }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-@keyframes scroll-left {
+@-webkit-keyframes scroll-left {
   from {
     transform: translateX(100%);
   }
