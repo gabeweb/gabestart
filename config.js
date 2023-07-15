@@ -109,7 +109,7 @@ var cards = [
       "TV Time": "https://tvtime.com",
       "YouTube": "https://youtube.com",
       "YouTube Music": "https://music.youtube.com",
-      "Zoro.to": "https://zoro.to",
+      "Zoro": "https://zoro.se",
     },
   },
 
