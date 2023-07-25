@@ -37,6 +37,7 @@ var cards = [
       "Forbes": "https://forbes.com",
       "Huawei Central": "https://huaweicentral.com",
       "iMore": "https://www.imore.com",
+	  "Insider": "https://insider.com",
       "MacWorld": "https://www.macworld.com",
       "Mashable": "https://mashable.com",
       "Mental Floss": "https://mentalfloss.com",
