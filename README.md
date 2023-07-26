@@ -83,9 +83,8 @@ This page is made possible thanks to:
 - [LentoLen](https://github.com/LentoLen) for [Suggestions](https://github.com/LentoLen/suggestions) script (under testing).
 - [FrankFan](https://github.com/FrankFan) for [jQuery.scrollText.js](href="https://github.com/FrankFan/jQuery.scrollText.js) script.
 - [mmoss](https://github.com/mmoss) for [Last.fm jQuery Plugin](https://github.com/mmoss/jquery-lastfm) (refactored).
-- [OpenWeatherMap](https://openweathermap.org) for weather info.
-- [Icons8](https://icons8.com/icon/set/weather/color-glass) for icons.
-- [IBM](https://github.com/IBM) for [IBM Plex](https://github.com/IBM/plex) font.
+- [OpenWeatherMap](https://openweathermap.org) for weather info. 
+- [IBM](https://github.com/IBM) for [IBM Plex](https://github.com/IBM/plex) font and [IBM's Carbon Design System](https://carbondesignsystem.com/guidelines/icons/contribute/) icons.
 - [IdreesInc](https://github.com/IdreesInc) for [Monocraft](https://github.com/IdreesInc/Monocraft) font.
 
 ---
