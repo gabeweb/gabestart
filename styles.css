@@ -24,7 +24,7 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 :root {
   /* GLOBAL  COLORS  */
-  --fontBody: "IBM Plex Mono", "Menlo", "DejaVu Sans Mono",
+  --fontBody: "IBM Plex Mono", "Menlo", "Noto Sans Mono", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", Courier, monospace;
   --fontHeader: "Monocraft", monospace;
   --invert: 1;
@@ -210,12 +210,13 @@ h1#main_header {
 #searchbar {
   border: 2px solid transparent;
   border-radius: var(--bdradius);
-  display: flex;
   background-color: var(--secondaryBg);
+  display: flex;
   height: 50px;
   padding: 0px;
   padding-left: 20px;
   overflow: hidden;
+  align-items: center;
 }
 
 #search-favicon {
@@ -229,21 +230,16 @@ h1#main_header {
   /*filter: invert(0.4);*/
 }
 
-/* COOL FAVICON SEARCH ENGINE */
-#search-favicon::before {
-  content: var(--faviconSearch);
-  display: inline;
-  /*filter: invert(var(--invert)) grayscale(100%) saturate(1);*/
-}
-
 #search-favicon {
-	width: 32px;
-	height: 32px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	display: inline-block;
-	margin: 5px 6px 5px -10px;
-	position: relative;
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 5px 6px 5px -10px;
+  position: relative;
+  background-image: var(--faviconSearch);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 #searchInput {
@@ -295,7 +291,7 @@ button#clear-field img {
 }
 
 #suggestions {
-  background-color: var(--bg);
+  background-color: var(--secondaryBg);
   width: 100%;
   position: absolute;
   display: none;
@@ -316,7 +312,7 @@ button#clear-field img {
   padding-left: 60px;
   cursor: pointer;
   margin: 0;
-  padding: 10px 10px 10px 60px;
+  padding: 10px 10px 10px 45px;
 }
 
 #suggestions p:hover {
