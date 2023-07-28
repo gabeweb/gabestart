@@ -134,7 +134,7 @@ h1#main_header {
   width: 46px;
   display: block;
   position: absolute;
-  filter:invert(1);
+  filter: invert(1);
 }
 
 #weather-container {
@@ -156,17 +156,32 @@ h1#main_header {
   animation-duration: 2s;
 }
 
-#username, #greeting {
-  background-color: var(--usernameBg);
+#username,
+#greeting {
+  /*background-color: var(--usernameBg);*/
   /*border-radius: var(--bdradius);*/
-  outline: 2px solid var(--usernameBg);
-  color: var(--usernameFg);
+  /*outline: 2px solid var(--usernameBg);*/
+  /*color: var(--usernameFg);*/
   animation: cursor-blink 0.6s infinite ease;
   -webkit-animation: cursor-blink 0.6s infinite ease;
   /*cursor: pointer;*/
   padding: 0 0 0 0.15em;
   margin-top: 20px;
   display: inline-block;
+}
+
+/* greeting's time */
+
+.morning {
+  color: var(--orange);
+}
+
+.afternoon {
+  color: var(--yellow);
+}
+
+.evening {
+  color: var(--cyan);
 }
 
 /* Vertical scroll box */
@@ -293,6 +308,8 @@ button#clear-field img {
 #suggestions {
   background-color: var(--secondaryBg);
   width: 100%;
+  max-height: 35vh;
+  overflow: auto;
   position: absolute;
   display: none;
   color: var(--fg);
@@ -303,8 +320,7 @@ button#clear-field img {
 }
 
 #suggestions hr {
-  margin: 0;
-  margin-bottom: 15px;
+  margin: -15px 0px 20px 0px;
   opacity: 0.5;
 }
 
@@ -391,7 +407,8 @@ button#clear-field img {
 }
 
 .content {
-  /*background-color: var(--secondaryBg);*/ /* OPTIONAL */
+  /*background-color: var(--secondaryBg);*/
+  /* OPTIONAL */
   display: none;
   flex-direction: column;
   height: 36vh;

@@ -2,13 +2,20 @@
 // Author: MrAlpha786 (github.con/MrAlpha786)
 
 // Greeting time!
-currentTime = new Date();
-//getHour() function will retrieve the hour from current time
-if (currentTime.getHours() < 12)
-  document.getElementById("greeting").innerHTML = "Morning!";
-else if (currentTime.getHours() < 18)
-  document.getElementById("greeting").innerHTML = "Afternoon!";
-else document.getElementById("greeting").innerHTML = "Evening!";
+var myDate = new Date();
+var hrs = myDate.getHours();
+
+var greet;
+var html = "";
+
+if (hrs < 12)
+  greet = html + '<span class="morning">' + "Morning" + "</span>";
+else if (hrs >= 12 && hrs <= 17)
+  greet = html + '<span class="afternoon">' + "Afternoon" + "</span>";
+else if (hrs >= 17 && hrs <= 24)
+  greet = html + '<span class="evening">' + "Evening" + "</span>";
+
+document.getElementById("greeting").innerHTML = greet;
 
 // Username
 // document.getElementById("username").innerHTML = userName;
