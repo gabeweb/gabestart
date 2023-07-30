@@ -70,12 +70,12 @@
       <div id="search">
         <form
           id="searchbar"
-          action="https://presearch.com/search?"
+          action="https://duckduckgo.com/?search"
           autocomplete="off"
           oninput="suggest()"
           target="_blank"
-        >        
-        <!-- for DuckDuckGo use instead: "https://duckduckgo.com/?search" -->
+        >
+          <!-- for DuckDuckGo use instead: "https://duckduckgo.com/?search" -->
 
           <span id="search-favicon"></span>
           <input
@@ -83,18 +83,25 @@
             id="searchInput"
             spellcheck="false"
             name="q"
-            placeholder="What are you looking for today?"
+            placeholder="Search the web"
           />
 
           <button
             id="clear-field"
             onclick="InputBoxReset('searchInput')"
             type="reset"
+            class="material-icon"
+            title="Clear"
           >
-            <img src="asset/icons/close.svg" alt="Clear" />
+            clear
           </button>
-          <button id="search-button" onclick="search()">
-            <img src="asset/icons/loupe.svg" alt="Go" />
+          <button
+            id="search-button"
+            onclick="search()"
+            class="material-icon"
+            title="Search"
+          >
+            search
           </button>
         </form>
         <div id="suggestions"></div>

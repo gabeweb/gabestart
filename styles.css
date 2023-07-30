@@ -18,6 +18,11 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
   src: url("asset/fonts/Monocraft/Monocraft.otf");
 }
 
+@font-face {
+  font-family: "MaterialIcons";
+  src: url("asset/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf");
+}
+
 /* TODO: Create Custom Theme Template to be imported */
 
 /* Common variables */
@@ -27,6 +32,7 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
   --fontBody: "IBM Plex Mono", "Menlo", "Noto Sans Mono", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", Courier, monospace;
   --fontHeader: "Monocraft", monospace;
+  --fontIcons: "MaterialIcons";
   --invert: 1;
   /* In light mode is vice-versa */
   --scrollbar: var(--accentColor);
@@ -66,6 +72,11 @@ body {
   margin: 0;
   font-family: var(--fontBody);
   font-size: 100%;
+}
+
+.material-icon {
+  font-family: var(--fontIcons);
+  font-size: 1.4em;
 }
 
 * {
@@ -228,8 +239,7 @@ h1#main_header {
   background-color: var(--secondaryBg);
   display: flex;
   height: 50px;
-  padding: 0px;
-  padding-left: 20px;
+  padding: 0px 10px 0px 14px;
   overflow: hidden;
   align-items: center;
 }
@@ -241,7 +251,7 @@ h1#main_header {
   --favicon-presearch: url("asset/icons/favicon-presearch.svg");
   --favicon-yahoo: url("asset/icons/favicon-yahoo.svg");
   --favicon-yandex: url("asset/icons/favicon-yandex.svg");
-  --faviconSearch: var(--favicon-presearch);
+  --faviconSearch: var(--favicon-duckduckgo);
   /*filter: invert(0.4);*/
 }
 
@@ -249,7 +259,7 @@ h1#main_header {
   width: 32px;
   height: 32px;
   display: block;
-  margin: 5px 6px 5px -10px;
+  margin: 0px 6px 0px 0px;
   position: relative;
   background-image: var(--faviconSearch);
   background-repeat: no-repeat;
@@ -275,34 +285,25 @@ input:focus {
   outline: none;
 }
 
-#search button,
-#clear-field input {
+button#search-button,
+button#clear-field {
   background-color: transparent;
+  border: 0;
   cursor: pointer;
-  margin: 0 0.5em 0 0;
-  padding: 0.75em 0.5em;
+  font-size: 1.4em;
 }
 
-#search button img,
-input#clear-field img {
-  filter: invert(0.7);
-  height: 1.2em;
-  width: 1.2em;
+button#clear-field {
+  color: var(--red);
 }
 
-#search button:hover img,
-input#clear-field img {
-  filter: invert(var(--invert));
+button#search-button {
+  color: var(--green);
 }
 
 form input:placeholder-shown + button#clear-field {
   opacity: 0;
   pointer-events: none;
-}
-
-button#clear-field img {
-  height: 0.9em;
-  width: 0.9em;
 }
 
 #suggestions {
@@ -494,56 +495,6 @@ button#clear-field img {
   text-align: right;
 }
 
-/* Screens larger than a average phone */
-@media screen and (min-width: 800px) {
-  .tab,
-  .tab.active[data-tab^="tab"],
-  .tab[data-tab^="tab"]:hover {
-    cursor: inherit !important;
-    /*background-color: var(--secondaryBg);*/
-    border-radius: var(--bdradius) var(--bdradius) 0 0;
-    font-size: 1.1em;
-    font-weight: 700;
-    margin: 0 1%;
-    padding: 0.5em;
-    width: 24%;
-  }
-
-  .content,
-  .content.active {
-    border-radius: 0 0 var(--bdradius) var(--bdradius);
-    display: flex;
-    margin: 0 1%;
-    width: 24%;
-  }
-
-  .content > a {
-    padding: 0.45em;
-  }
-}
-
-/* Screens larger than a average tab */
-@media screen and (min-width: 1024px) {
-  #search {
-    width: 60%;
-  }
-
-  .table-container {
-    width: 75%;
-  }
-}
-
-/* DeskTop Screen */
-@media screen and (min-width: 7200px) {
-  #search {
-    width: 40%;
-  }
-
-  .table-container {
-    width: 75%;
-  }
-}
-
 /* WAVE PARALLAX ANIMATION TAKEN FROM
 /* https://codepen.io/andyfitz/pen/aZrKdV
 /* Copyright (c) 2022 Andy Fitzsimon
@@ -555,7 +506,7 @@ button#clear-field img {
   position: fixed;
   z-index: -1;
   width: 100%;
-  display: none;
+  /*display: none;*/
   /* Disabled by default */
 }
 
@@ -822,3 +773,55 @@ span.info-connector {
 }
 
 /* END EQUALIZER */
+
+/* Media Queries */
+
+/* Screens larger than a average phone */
+@media screen and (min-width: 800px) {
+  .tab,
+  .tab.active[data-tab^="tab"],
+  .tab[data-tab^="tab"]:hover {
+    cursor: inherit !important;
+    /*background-color: var(--secondaryBg);*/
+    border-radius: var(--bdradius) var(--bdradius) 0 0;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 0 1%;
+    padding: 0.5em;
+    width: 24%;
+  }
+
+  .content,
+  .content.active {
+    border-radius: 0 0 var(--bdradius) var(--bdradius);
+    display: flex;
+    margin: 0 1%;
+    width: 24%;
+  }
+
+  .content > a {
+    padding: 0.45em;
+  }
+}
+
+/* Screens larger than a average tab */
+@media screen and (min-width: 1024px) {
+  #search {
+    width: 60%;
+  }
+
+  .table-container {
+    width: 75%;
+  }
+}
+
+/* DeskTop Screen */
+@media screen and (min-width: 7200px) {
+  #search {
+    width: 40%;
+  }
+
+  .table-container {
+    width: 75%;
+  }
+}
