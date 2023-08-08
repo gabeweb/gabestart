@@ -5,7 +5,7 @@
        * @version    1.0
        * @update     2015.11.02
        * @author     FrankFan
-       * @github     https://github.com/FrankFan/jQyery.scrollTet.js
+       * @github     https://github.com/FrankFan/jQuery.scrollText.js/
        *-------------------------------------------------------------------
        */
 
