@@ -129,18 +129,36 @@ $('#nowPlayingBox').nowplaying({
             html +
             "</span>" +
             '<p class="playing-now"><object class="bars"><button class="bar bar1" /><button class="bar bar2" /><button class="bar bar3" /></object><span class="playing-info"><span class="track">' +
+            '<a href="https://last.fm/music/' +
+            track.artist["#text"] +
+            "/" +
+            track.album["#text"] +
+            "/" +
             track.name +
+            '/" target="_blank">' +
+            track.name +
+            "</a>" +
             "</span>" +
             '<span class="info-connector"> by </span>' +
             '<span class="artist">' +
+            '<a href="https://last.fm/music/' +
             track.artist["#text"] +
-            "</span></span>";
+            '/" target="_blank">' +
+            track.artist["#text"] +
+            "</a>" +
+            "</span>";
 
           if (track.album["#text"]) {
             html =
               html +
               '<span class="album"><span class="info-connector"> from </span>' +
+              '<a href="https://last.fm/music/' +
+              track.artist["#text"] +
+              "/" +
               track.album["#text"] +
+              '/" target="_blank">' +
+              track.album["#text"] +
+              "</a>" +
               "</span></p>";
           }
 
