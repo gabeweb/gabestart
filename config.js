@@ -119,6 +119,7 @@ var cards = [
     name: "Tools",
     bookmarks: {
       "Bitwarden": "https://vault.bitwarden.com",
+      "Bort": "https://bort.io/",
       "Box": "https://box.com",
       "Coda": "https://coda.io",
       "Dillinger": "https://dillinger.io",
@@ -143,8 +144,10 @@ var cards = [
       "Notion": "https://notion.so",
       "Office 365": "https://office.com",
       "OneDrive": "https://onedrive.com",
+      "Omnivore": "https://omnivore.app/home",
       "Outlook Calendar": "https://calendar.live.com",
       "Photopea": "https://photopea.com",
+      "Pocket": "https://getpocket.com/home",
       "Skiff Drive": "https://drive.skiff.com",
       "StackEdit+": "https://stackedit.net/app",
       "VSCode": "https://vscode.dev",
