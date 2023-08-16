@@ -36,6 +36,7 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
   --invert: 1;
   /* In light mode is vice-versa */
   --scrollbar: var(--accentColor);
+  font-feature-settings: "zero" 1;
 
   /* PREFERRED ACCEMT */
 
@@ -694,7 +695,8 @@ span.info-connector {
   font-weight: bold;
 }
 
-.playing-not a {
+.playing-not a,
+.playing-info a {
   text-decoration: underline;
 }
 
