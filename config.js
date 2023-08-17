@@ -38,6 +38,7 @@ var cards = [
       "Huawei Central": "https://huaweicentral.com",
       "iMore": "https://www.imore.com",
 	  "Insider": "https://insider.com",
+    "Inverse": "https://www.inverse.com/",
       "MacWorld": "https://www.macworld.com",
       "Mashable": "https://mashable.com",
       "Mental Floss": "https://mentalfloss.com",
