@@ -82,9 +82,9 @@ var cards = [
       "Telegram": "https://web.telegram.org",
       "Threads": "https://threads.net",
       "Tumblr": "https://tumblr.com",
-      "Twitter": "https://twitter.com",
       "VK": "https://vk.com",
       "WhatsApp": "https://web.whatsapp.com",
+      "X": "https://twitter.com/home",
     },
   },
   {
@@ -119,6 +119,7 @@ var cards = [
   {
     name: "Tools",
     bookmarks: {
+      "Anytype": "https://anytype.io/",
       "Bitwarden": "https://vault.bitwarden.com",
       "Bort": "https://bort.io/",
       "Box": "https://box.com",
