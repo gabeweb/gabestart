@@ -137,6 +137,7 @@ var cards = [
       "Google Translate": "https://translate.google.com",
       "HedgeDoc": "https://demo.hedgedoc.org",
       "KeeWeb": "https://app.keeweb.info",
+      "Markdit": "https://markdit.com/",
       "Mega.nz": "https://mega.nz",
       "Microsoft Designer": "https://designer.microsoft.com",
       "Microsoft Loop": "https://loop.microsoft.com",
