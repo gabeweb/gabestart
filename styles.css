@@ -10,17 +10,58 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 @font-face {
   font-family: "IBM Plex Mono";
-  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-Regular.ttf");
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-BoldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-LightItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: light;
 }
 
 @font-face {
   font-family: "Monocraft";
-  src: url("asset/fonts/Monocraft/Monocraft.otf");
+  src: url("asset/fonts/Monocraft/Monocraft.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "MaterialIcons";
-  src: url("asset/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf");
+  src: url("asset/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 /* TODO: Create Custom Theme Template to be imported */
@@ -29,10 +70,10 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 :root {
   /* GLOBAL  COLORS  */
-  --fontBody: "IBM Plex Mono", "Menlo", "Noto Sans Mono", "DejaVu Sans Mono",
+  --fontBody: "IBM Plex Mono", Menlo, "Noto Sans Mono", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", Courier, monospace;
-  --fontHeader: "Monocraft", monospace;
-  --fontIcons: "MaterialIcons";
+  --fontHeader: Monocraft, monospace;
+  --fontIcons: MaterialIcons;
   --invert: 1;
   /* In light mode is vice-versa */
   --scrollbar: var(--accentColor);
