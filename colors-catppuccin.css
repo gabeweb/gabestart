@@ -1,10 +1,10 @@
 /* Catppuccin Colors */
 :root {
   /* GLOBAL  COLORS  */
-  --bg: rgb(30, 30, 46);
+  --bg: rgb(17, 17, 27);
   --fg: rgb(205, 214, 244);
 
-  --secondaryBg: rgb(69, 71, 90);
+  --secondaryBg: rgb(49, 50, 68);
 
   --black: rgb(24, 24, 37);
   --blue: rgb(137, 180, 250);
