@@ -108,6 +108,7 @@ var cards = [
       "Plex": "https://watch.plex.tv",
       "Pluto TV": "https://pluto.tv",
       "Roku": "https://roku.com",
+      "Rumble": "https://rumble.com",
       "Runtime": "https://runtime.tv",
       "Spotify": "https://open.spotify.com",
       "TIDAL": "https://listen.tidal.com",
