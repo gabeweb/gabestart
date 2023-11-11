@@ -72,6 +72,7 @@ var cards = [
   {
     name: "Social",
     bookmarks: {
+      Bluesky: "https://bsky.app/",
       DEV: "https://dev.to",
       Discord: "https://discordapp.com",
       Facebook: "https://facebook.com",
