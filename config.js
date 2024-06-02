@@ -32,6 +32,7 @@ var cards = [
       "BBC News": "https://bbc.com",
       "Boing Boing": "https://boingboing.net",
       CNET: "https://cnet.com",
+      "Daily Mail": "https://dailymail.co.uk",
       Decrypt: "https://decrypt.co",
       Digg: "https://digg.com",
       Electrek: "https://electrek.co",
