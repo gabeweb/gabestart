@@ -79,7 +79,6 @@ var cards = [
       Discord: "https://discordapp.com",
       Facebook: "https://facebook.com",
       Hashnode: "https://hashnode.com",
-      ICQ: "https://icq.com",
       Instagram: "https://instagram.com",
       Mastodon: "https://mastodon.social",
       Messenger: "https://messenger.com",
