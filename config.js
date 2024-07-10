@@ -117,9 +117,9 @@ var cards = [
       TIDAL: "https://listen.tidal.com",
       "Trakt.tv": "https://trakt.tv",
       "TV Time": "https://tvtime.com",
+      "Winamp": "https://player.winamp.com",
       YouTube: "https://youtube.com",
       "YouTube Music": "https://music.youtube.com",
-      Zoro: "https://zoro.se",
     },
   },
 
