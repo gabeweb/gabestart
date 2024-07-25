@@ -147,7 +147,6 @@ var cards = [
       "Google Translate": "https://translate.google.com",
       "iCloud Drive": "https://icloud.com/iclouddrive",
       "iCloud Notes": "https://icloud.com/notes",
-      HedgeDoc: "https://hedgedoc.org",
       KeeWeb: "https://app.keeweb.info",
       Markdit: "https://markdit.com/",
       "Mega.nz": "https://mega.nz",
