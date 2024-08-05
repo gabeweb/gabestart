@@ -13,7 +13,6 @@ var cards = [
       "OnMail": "https://mail.onmail.com",
       "Outlook": "https://mail.live.com",
       "Proton Mail": "https://mail.proton.me",
-      "Skiff Mail": "https://mail.skiff.com",
       "Yahoo Mail": "https://mail.yahoo.com",
       "Yandex Mail": "https://mail.yandex.com",
     },
