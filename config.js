@@ -116,7 +116,7 @@ var cards = [
       Runtime: "https://runtime.tv",
       Spotify: "https://open.spotify.com",
       TIDAL: "https://listen.tidal.com",
-      "Trakt.tv": "https://trakt.tv",
+      "Trakt": "https://trakt.tv",
       "TV Time": "https://tvtime.com",
       "Winamp": "https://player.winamp.com",
       "World's TV Mobile": "https://worldstvmobile.com/",
