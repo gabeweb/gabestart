@@ -57,6 +57,41 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
   font-weight: normal;
 }
 
+/*@font-face {
+  font-family: "Monocraft";
+  src: url("asset/fonts/Monocraft/Monocraft-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Monocraft";
+  src: url("asset/fonts/Monocraft/Monocraft-Italic.otf") format("opentype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Monocraft";
+  src: url("asset/fonts/Monocraft/Monocraft-Light-Italic.otf") format("opentype");
+  font-style: italic;
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Monocraft";
+  src: url("asset/fonts/Monocraft/Monocraft-Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "MaterialIcons";
+  src: url("asset/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}*/
+
 @font-face {
   font-family: "MaterialIcons";
   src: url("asset/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf") format("opentype");
@@ -297,12 +332,16 @@ h1#main_header {
   color: var(--orange);
 }
 
-.afternoon {
+.day, .afternoon {
   color: var(--yellow);
 }
 
 .evening {
   color: var(--cyan);
+}
+
+.night {
+  color: var(--blue);
 }
 
 /* Vertical scroll box */
@@ -387,7 +426,7 @@ h1#main_header {
   color: inherit;
 }
 
-#searchbar:focus-within {
+#searchbar:focus-within, #searchbar:hover {
   border: 2px solid var(--accentColor);
 }
 
@@ -538,6 +577,18 @@ form input:placeholder-shown + button#clear-field {
   /*display: flex;*/
   /*text-align: center;*/
   padding: 0.5em;
+}
+
+a {
+  transition-duration: 0.5s !important;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  background-color: var(--accentColor);
+  color: var(--black) !important;
+  transition-property: background-color !important;
 }
 
 /* SPACER TEMPORARY FIX
