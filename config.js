@@ -25,6 +25,7 @@ var cards = [
       "9to5Mac": "https://9to5mac.com",
       "Android Authority": "https://androidauthority.com",
       "Android Central": "https://androidcentral.com",
+      "Android Headlines": "https://www.androidheadlines.com/",
       "Android Police": "https://androidpolice.com",
       "AP News": "https://apnews.com",
       "ArcaMax": "https://www.arcamax.com/",
