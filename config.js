@@ -150,6 +150,7 @@ var cards = [
       "Google Docs": "https://docs.google.com",
       "Google Drive": "https://drive.google.com",
       "Google Keep": "https://keep.google.com",
+      "Google NotebookLM": "https://notebooklm.google.com/",
       "Google Passwords": "https://passwords.google.com",
       "Google Translate": "https://translate.google.com",
       "iCloud Drive": "https://icloud.com/iclouddrive",
