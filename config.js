@@ -110,7 +110,6 @@ var cards = [
       Crunchyroll: "https://crunchyroll.com",
       Deviantart: "https://deviantart.com",
       Dribbble: "https://dribbble.com",
-      "Fubiz Media": "https://www.fubiz.net/en",
       "Hype Machine": "https://hypem.com",
       "i have no tv": "https://ihavenotv.com/",
       "Last.fm": "https://last.fm",
