@@ -92,7 +92,7 @@ var cards = [
       Reddit: "https://reddit.com",
       "Stack Exchange": "https://stackexchange.com",
       Telegram: "https://web.telegram.org",
-      Threads: "https://threads.net",
+      Threads: "https://www.threads.com",
       Tumblr: "https://tumblr.com",
       VK: "https://vk.com",
       WhatsApp: "https://web.whatsapp.com",
