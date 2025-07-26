@@ -167,7 +167,6 @@ var cards = [
       OneDrive: "https://onedrive.com",
       "Outlook Calendar": "https://calendar.live.com",
       Photopea: "https://photopea.com",
-      Pocket: "https://getpocket.com/home",
       VSCode: "https://vscode.dev",
       Vectr: "https://vectr.com",
       Vercel: "https://vercel.com",
