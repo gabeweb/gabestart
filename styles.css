@@ -10,7 +10,8 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 @font-face {
   font-family: "IBM Plex Mono";
-  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-Regular.woff2") format("woff2");
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-Regular.woff2")
+    format("woff2");
   font-style: normal;
   font-weight: normal;
 }
@@ -24,7 +25,8 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 @font-face {
   font-family: "IBM Plex Mono";
-  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-BoldItalic.woff2") format("woff2");
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-BoldItalic.woff2")
+    format("woff2");
   font-style: italic;
   font-weight: bold;
 }
@@ -45,7 +47,8 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 @font-face {
   font-family: "IBM Plex Mono";
-  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-LightItalic.woff2") format("woff2");
+  src: url("asset/fonts/IBM Plex Mono/IBMPlexMono-LightItalic.woff2")
+    format("woff2");
   font-style: italic;
   font-weight: 300;
 }
@@ -94,7 +97,8 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 @font-face {
   font-family: "MaterialIcons";
-  src: url("asset/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf") format("opentype");
+  src: url("asset/fonts/MaterialIcons/MaterialIconsOutlined-Regular.otf")
+    format("opentype");
   font-style: normal;
   font-weight: normal;
 }
@@ -332,7 +336,8 @@ h1#main_header {
   color: var(--orange);
 }
 
-.day, .afternoon {
+.day,
+.afternoon {
   color: var(--yellow);
 }
 
@@ -351,20 +356,21 @@ h1#main_header {
   display: block;
   max-width: 720px;
   width: 85%;
+  margin: 10px auto 0px auto;
 }
 
 .vertical-scroll-box {
-  height: 30px;
-  line-height: 31px;
-  overflow: Hidden;
+  height: 38px;
+  line-height: 40px;
+  overflow: hidden;
   padding: 0px;
   font-size: 1.5em;
 }
 
 .vertical-scroll-box ul,
 .vertical-scroll-box > li {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   list-style: none;
   text-align: center;
 }
@@ -372,6 +378,18 @@ h1#main_header {
 .vertical-scroll-box .item-1 {
   animation: scroll-left 30s linear infinite;
   -webkit-animation: scroll-left 30s linear infinite;
+  margin: -6px 0px;
+  padding: 4px 0px;
+}
+
+.vertical-scroll-box .item-2 {
+  margin: -12px 0px;
+  padding: 4px 0px;
+}
+
+.vertical-scroll-box .item-3 {
+  margin: -8px 0px;
+  padding: 4px 0px;
 }
 
 /* SEARCH REVAMPED */
@@ -426,7 +444,8 @@ h1#main_header {
   color: inherit;
 }
 
-#searchbar:focus-within, #searchbar:hover {
+#searchbar:focus-within,
+#searchbar:hover {
   border: 2px solid var(--accentColor);
 }
 
@@ -729,7 +748,7 @@ div#nowPlaying-container {
   width: 90%;
   max-width: 640px;
   overflow: hidden;
-  padding: 0;
+  padding: 0px;
   position: relative;
   display: inline-block;
 }
@@ -739,7 +758,7 @@ div#nowPlaying-container {
 }
 
 div#nowPlaying-container #playingInfo p {
-  margin: 0px 15px;
+  margin: 0px 0px;
 }
 
 #playingInfo p.playing-now,
