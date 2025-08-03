@@ -903,7 +903,7 @@ span.info-connector {
   width: 30px;
   height: 24px;
   position: absolute;
-  bottom: 5px;
+  bottom: 10px;
 }
 
 .bars .bar {
