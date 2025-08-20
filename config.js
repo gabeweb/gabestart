@@ -10,7 +10,7 @@ var cards = [
       "EtherMail": "https://ethermail.io/webmail",
       "Google Mail": "https://mail.google.com",
       "iCloud Mail": "https://icloud.com/mail",
-      "Outlook": "https://mail.live.com",
+      "Outlook": "https://outlook.live.com/mail/",
       "Proton Mail": "https://mail.proton.me",
       "Yahoo Mail": "https://mail.yahoo.com",
       "Yandex Mail": "https://mail.yandex.com",
