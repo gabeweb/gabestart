@@ -753,6 +753,10 @@ div#nowPlaying-container {
   display: inline-block;
 }
 
+span#playingInfo {
+	width: 100%;
+}
+
 .playing-info {
   margin-left: 40px;
 }
