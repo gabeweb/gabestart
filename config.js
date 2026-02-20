@@ -34,7 +34,6 @@ var cards = [
       CNET: "https://cnet.com",
       "Daily Mail": "https://dailymail.co.uk",
       Decrypt: "https://decrypt.co",
-      Digg: "https://digg.com",
       Electrek: "https://electrek.co",
       Forbes: "https://forbes.com",
       "Huawei Central": "https://huaweicentral.com",
@@ -77,6 +76,7 @@ var cards = [
     bookmarks: {
       Bluesky: "https://bsky.app/",
       DEV: "https://dev.to",
+      Digg: "https://digg.com",
       Discord: "https://discordapp.com",
       Facebook: "https://facebook.com",
       "Facebook Messenger": "https://messenger.com",
