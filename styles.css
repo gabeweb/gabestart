@@ -130,6 +130,9 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
   --bdradius: none;
   /* 0.75em* */
+
+  caret-color: transparent;
+  animation: rainbow 5s infinite linear;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -995,8 +998,8 @@ span.info-connector {
   }
 
   80% {
-    caret-color: var(--lavender);
-    border-color: var(--lavender);
+    caret-color: var(--purple);
+    border-color: var(--purple);
   }
 }
 
@@ -1019,7 +1022,7 @@ span.info-connector {
   }
 
   20%,0% {
-    color: var(--lavender);
+    color: var(--purple);
   }
 }
 
