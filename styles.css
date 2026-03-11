@@ -467,6 +467,7 @@ button#clear-field {
 
 button#search-button {
   color: var(--green);
+  animation: rainbow-text 5s infinite linear;
 }
 
 form input:placeholder-shown + button#clear-field {
@@ -827,17 +828,14 @@ span.info-connector {
 }
 
 #dottime {
-  color: var(--black);
-  animation-name: blink;
-  animation-duration: 1s;
-  animation-direction: linear;
-  animation-iteration-count: infinite;
-  animation-delay: -0.5s;
-  -webkit-animation-name: blink;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-direction: linear;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-delay: -0.5s;
+  margin: 2px;
+  animation:
+    blink 1s ease-in -0.5s infinite,
+    rainbow-text 0.5s ease-in -0.5s infinite;
+
+  -webkit-animation:
+    blink 1s ease-in -0.5s infinite,
+    rainbow-text 0.5s ease-in -0.5s infinite;
 }
 
 @-webkit-keyframes blink {
@@ -960,6 +958,70 @@ span.info-connector {
 }
 
 /* END EQUALIZER */
+
+/* AI-STYLED ELEMENTS */
+
+.animated-cursor {
+  caret-color: transparent;
+  animation: rainbow 5s infinite linear;
+}
+
+.animated-box {
+  outline: none;
+  animation: rainbow 5s infinite linear;
+}
+
+@keyframes rainbow {
+
+  0%,
+  100% {
+    caret-color: var(--blue);
+    border-color: var(--blue);
+  }
+
+  20% {
+    caret-color: var(--green);
+    border-color: var(--green);
+  }
+
+  40% {
+    caret-color: var(--yellow);
+    border-color: var(--yellow);
+  }
+
+  60% {
+    caret-color: var(--red);
+    border-color: var(--red);
+  }
+
+  80% {
+    caret-color: var(--lavender);
+    border-color: var(--lavender);
+  }
+}
+
+@keyframes rainbow-text {
+
+  100% {
+    color: var(--blue);
+  }
+
+  80% {
+    color: var(--green);
+  }
+
+  60% {
+    color: var(--yellow);
+  }
+
+  40% {
+    color: var(--red);
+  }
+
+  20%,0% {
+    color: var(--lavender);
+  }
+}
 
 /* Media Queries */
 
