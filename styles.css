@@ -328,7 +328,7 @@ h1#main_header {
   animation: cursor-blink 0.6s infinite ease;
   -webkit-animation: cursor-blink 0.6s infinite ease;
   /*cursor: pointer;*/
-  padding: 0 0 0 0.15em;
+  padding: 0 0.2em 0 0.2em;
   margin-top: 20px;
   display: inline-block;
 }
@@ -823,8 +823,8 @@ span.info-connector {
 
 #date-time,
 #time-date {
-  color: var(--black);
-  background-color: var(--cyan);
+  color: var(--white);
+  /*background-color: var(--cyan);*/
   padding: 0 0.5em;
   margin: 0 0.75em;
   font-weight: bold;
