@@ -76,7 +76,6 @@ var cards = [
     bookmarks: {
       Bluesky: "https://bsky.app/",
       DEV: "https://dev.to",
-      Digg: "https://digg.com",
       Discord: "https://discordapp.com",
       Facebook: "https://facebook.com",
       "Facebook Messenger": "https://messenger.com",
