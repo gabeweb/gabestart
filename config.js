@@ -110,7 +110,7 @@ var cards = [
       Dribbble: "https://dribbble.com",
       "EXP TV": "https://www.exptv.org",
       Famelack: "https://famelack.com/",
-      FMSTREAM : "https://fmstream.org/index.php",
+      FMSTREAM: "https://fmstream.org/index.php",
       "Hype Machine": "https://hypem.com",
       "i have no tv": "https://ihavenotv.com/",
       "Last.fm": "https://last.fm",
@@ -181,6 +181,7 @@ var cards = [
       "Yandex Calendar": "https://calendar.yandex.com/",
       "Yandex Disk": "https://disk.yandex.com",
       "Yandex Notes": "https://disk.yandex.com/notes",
+      "Yeet.md": "https://yeet.md",
     },
   },
 ];
