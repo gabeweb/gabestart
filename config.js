@@ -106,6 +106,7 @@ var cards = [
       Consequence: "https://consequence.net",
       Cracked: "https://www.cracked.com",
       Crunchyroll: "https://crunchyroll.com",
+      Dexerto: "https://www.dexerto.com",
       Deviantart: "https://deviantart.com",
       Dribbble: "https://dribbble.com",
       "EXP TV": "https://www.exptv.org",
