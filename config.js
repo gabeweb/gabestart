@@ -116,6 +116,7 @@ var cards = [
       "i have no tv": "https://ihavenotv.com/",
       "Last.fm": "https://last.fm",
       "Movies Found Online": "https://moviesfoundonline.com/",
+      Odysee: "https://odysee.com/",
       Pitchfork: "https://pitchfork.com",
       Plex: "https://watch.plex.tv",
       "Pluto TV": "https://pluto.tv",
