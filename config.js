@@ -12,6 +12,7 @@ var cards = [
       "iCloud Mail": "https://icloud.com/mail",
       "Outlook": "https://outlook.live.com/mail/0/",
       "Proton Mail": "https://mail.proton.me",
+      Thundermail: "https://tb.pro/",
       "Yahoo Mail": "https://mail.yahoo.com",
       "Yandex Mail": "https://mail.yandex.com",
     },
