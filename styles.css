@@ -155,7 +155,7 @@ body {
   background-color: var(--bg);
   margin: 0;
   font-family: var(--fontBody);
-  font-size: 100%;
+  font-size: 0.8em;
 }
 
 .material-icon {
