@@ -3,7 +3,7 @@
 /* colors-dracula.css
 /* colors-catppuccin.css
 */
-@import url(colors-catppuccin.css);
+@import url(colors-yahoo.css);
 
 /* GetStarted - A simple responsive Startpage
 Author: MrAlpha786 (github.con/MrAlpha786) */
@@ -109,7 +109,8 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
 :root {
   /* GLOBAL  COLORS  */
-  --fontBody: "IBM Plex Mono", Menlo, "Noto Sans Mono", "DejaVu Sans Mono",
+  --fontBody:
+    "IBM Plex Mono", Menlo, "Noto Sans Mono", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", Courier, monospace;
   --fontHeader: Monocraft, monospace;
   --fontIcons: MaterialIcons;
@@ -120,7 +121,7 @@ Author: MrAlpha786 (github.con/MrAlpha786) */
 
   /* PREFERRED ACCEMT */
 
-  --accentColor: var(--green);
+  --accentColor: var(--red);
 
   /* CUSTOM USERNAME COLORS */
 
@@ -610,7 +611,7 @@ a:hover,
 a:active {
   text-decoration: none;
   background-color: var(--accentColor);
-  color: var(--black) !important;
+  color: var(--white);
   transition-property: background-color !important;
 }
 
@@ -697,7 +698,7 @@ a:active {
 .parallax > use {
   animation: move-forever 30s linear infinite;
   -webkit-animation: move-forever 30s linear infinite;
-  fill: var(--accentColor);
+  fill: var(--blue);
 }
 
 .parallax > use:nth-child(1) {
@@ -758,9 +759,9 @@ div#nowPlaying-container {
 }
 
 div#playingInfo {
-	display: block;
-	width: fit-content;
-	margin: auto;
+  display: block;
+  width: fit-content;
+  margin: auto;
 }
 
 .playing-info {
@@ -975,7 +976,6 @@ span.info-connector {
 }
 
 @keyframes rainbow {
-
   0%,
   100% {
     caret-color: var(--blue);
@@ -1004,7 +1004,6 @@ span.info-connector {
 }
 
 @keyframes rainbow-text {
-
   100% {
     color: var(--blue);
   }
@@ -1021,7 +1020,8 @@ span.info-connector {
     color: var(--red);
   }
 
-  20%,0% {
+  20%,
+  0% {
     color: var(--purple);
   }
 }

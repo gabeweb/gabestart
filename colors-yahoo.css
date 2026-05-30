@@ -1,0 +1,103 @@
+/* Catppuccin Colors */
+:root {
+  /* GLOBAL  COLORS  */
+  --bg: rgb(0, 0, 0);
+  --fg: rgb(255, 255, 255);
+
+  --secondaryBg: rgb(49, 50, 68);
+
+  --black: #1a1a1c;
+  --blue: #5d5eff;
+  --cyan: #12a9ff;
+  --green: #1ac567;
+  --orange: #fd6100;
+  --purple: #7d2eff;
+  --red: #eb0f29;
+  --white: #fcfbfb;
+  --yellow: #ffd333;
+}
+
+/* Colors */
+
+.tab.active[data-tab^="tab"] {
+  font-weight: 700;
+}
+
+.tab.active[data-tab*="1"],
+.content[data-tab*="1"] a:hover,
+.tab[data-tab*="1"]:hover {
+  background-color: var(--blue);
+  color: var(--black);
+}
+
+.tab.active[data-tab*="2"],
+.content[data-tab*="2"] a:hover,
+.tab[data-tab*="2"]:hover {
+  background-color: var(--green);
+  color: var(--black);
+}
+
+.tab.active[data-tab*="3"],
+.content[data-tab*="3"] a:hover,
+.tab[data-tab*="3"]:hover {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+.tab.active[data-tab*="4"],
+.content[data-tab*="4"] a:hover,
+.tab[data-tab*="4"]:hover {
+  background-color: var(--red);
+  color: var(--white) !important;
+}
+
+.tab.active[data-tab*="5"],
+.content[data-tab*="5"] a:hover,
+.tab[data-tab*="5"]:hover {
+  background-color: var(--purple);
+  color: var(--black);
+}
+
+.tab.active[data-tab*="1"] a:hover {
+  color: var(--black);
+}
+
+.tab.active[data-tab*="2"] a:hover {
+  color: var(--black);
+}
+
+.tab.active[data-tab*="3"] a:hover {
+  color: var(--black);
+}
+
+/* Screens larger than a average phone */
+@media screen and (min-width: 800px) {
+  #tab-container {
+    background-color: transparent !important;
+  }
+
+  .tab[data-tab*="1"] {
+    background: var(--blue) !important;
+    color: var(--black) !important;
+  }
+
+  .tab[data-tab*="2"] {
+    background: var(--green) !important;
+    color: var(--black) !important;
+  }
+
+  .tab[data-tab*="3"] {
+    background: var(--yellow) !important;
+    color: var(--black) !important;
+  }
+
+  .tab[data-tab*="4"] {
+    background: var(--red) !important;
+    color: var(--white) !important;
+  }
+
+  .tab[data-tab*="5"] {
+    background: var(--purple) !important;
+    color: var(--black) !important;
+  }
+}
