@@ -760,12 +760,13 @@ div#nowPlaying-container {
 
 div#playingInfo {
   display: block;
-  width: fit-content;
+  width: 100%;
   margin: auto;
 }
 
 .playing-info {
   margin-left: 40px;
+  align-content: center;
 }
 
 div#nowPlaying-container #playingInfo p {
