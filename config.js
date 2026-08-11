@@ -167,6 +167,7 @@ var cards = [
       "Microsoft 365 Copilot": "https://m365.cloud.microsoft/search/",
       "Microsoft Sticky Notes": "https://outlook.live.com/mail/0/notes",
       "Microsoft To Do": "https://to-do.live.com/tasks/myday",
+      Monoleaf: "https://web.monoleaf.org/",
       Notanic: "https://app.notanic.com/",
       NotesHub: "https://www.noteshub.app/notebooks",
       Notion: "https://notion.so",
