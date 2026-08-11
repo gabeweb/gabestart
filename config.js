@@ -161,7 +161,7 @@ var cards = [
       "iCloud Notes": "https://icloud.com/notes",
       KeeWeb: "https://app.keeweb.info",
       Markdit: "https://markdit.com/",
-      "Mega.nz": "https://mega.nz",
+      MEGA: "https://mega.nz",
       "Microsoft Designer": "https://designer.microsoft.com",
       "Microsoft Loop": "https://loop.microsoft.com",
       "Microsoft 365 Copilot": "https://m365.cloud.microsoft/search/",
