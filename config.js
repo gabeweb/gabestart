@@ -126,7 +126,6 @@ var cards = [
       Spotify: "https://open.spotify.com",
       TIDAL: "https://listen.tidal.com",
       "Trakt": "https://trakt.tv",
-      "TV Time": "https://tvtime.com",
       "World's TV Mobile": "https://worldstvmobile.com/",
       YouTube: "https://youtube.com",
       "YouTube Music": "https://music.youtube.com",
