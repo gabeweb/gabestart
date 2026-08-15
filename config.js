@@ -161,6 +161,7 @@ var cards = [
       "iCloud Notes": "https://icloud.com/notes",
       KeeWeb: "https://app.keeweb.info",
       Markdit: "https://markdit.com/",
+      markon: "https://metaory.github.io/markon/",
       MEGA: "https://mega.nz",
       "Microsoft Designer": "https://designer.microsoft.com",
       "Microsoft Loop": "https://loop.microsoft.com",
