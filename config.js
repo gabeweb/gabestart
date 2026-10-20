@@ -177,6 +177,7 @@ var cards = [
       Photopea: "https://photopea.com",
       "Proton Calendar": "https://calendar.proton.me/",
       "Proton Docs": "https://docs.proton.me/",
+      Simplenote: "https://app.simplenote.com",
       VSCode: "https://vscode.dev",
       Vectr: "https://vectr.com",
       Vercel: "https://vercel.com",
