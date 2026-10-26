@@ -140,7 +140,6 @@ var cards = [
       Bitwarden: "https://vault.bitwarden.com",
       Bort: "https://bort.io/",
       Box: "https://box.com",
-      Coda: "https://coda.io",
       "CryptPad.fr": "https://cryptpad.fr/",
       Dillinger: "https://dillinger.io",
       Dropbox: "https://dropbox.com",
