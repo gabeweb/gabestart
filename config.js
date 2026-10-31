@@ -109,7 +109,6 @@ var cards = [
       Crunchyroll: "https://crunchyroll.com",
       Dexerto: "https://www.dexerto.com",
       Deviantart: "https://deviantart.com",
-      Dribbble: "https://dribbble.com",
       "EXP TV": "https://www.exptv.org",
       Famelack: "https://famelack.com/",
       FMSTREAM: "https://fmstream.org/index.php",
