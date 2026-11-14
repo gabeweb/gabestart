@@ -7,7 +7,6 @@ var cards = [
     name: "Email",
     bookmarks: {
       "Aol Mail": "https://mail.aol.com",
-      "EtherMail": "https://ethermail.io/webmail",
       "Google Mail": "https://mail.google.com",
       "iCloud Mail": "https://icloud.com/mail",
       "Outlook": "https://outlook.live.com/mail/0/",
